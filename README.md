@@ -8,7 +8,7 @@ Import socket :-
 
 To create a socket, you must use the socket.socket() function available in socket module, which has the general syntax −
 # Create a socket object. s = socket.socket()  
-# s = socket.socket (socket_family, socket_type, protocol=0)
+s = socket.socket (socket_family, socket_type, protocol=0)
 
 # s.bind()
 # Define the port on which you want to connect. port = 12345.
@@ -43,10 +43,10 @@ The python sys module provides functions and variables which are used to manipul
 
 BASIC FUNCTIONS used :--
 
-print ( ) :-
+# print ( ) :-
 The print() function prints the specified message to the screen, or other standard output device. The message can be a string, or any other object, the object will be converted into a string before written to the screen.
 
-input ( ) :-
+# input ( ) :-
 The function input() input has an optional parameter, which is the prompt string. If the input function is called, the program flow will be stopped until the user has given an input and has ended the input with the return key.
 
 
