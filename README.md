@@ -60,6 +60,6 @@ The function input() input has an optional parameter, which is the prompt string
 
 # Disadvantages
 
-1. It is not multithreaded so it can only establish one connection at a time.
+1. It is not multithreaded so it can only establish one connection at a time with a sequence [send] [receive] [send] [receive].
 2. It is not GUI based.
 3. It can only support IPv4 based connections.
