@@ -56,3 +56,10 @@ The function input() input has an optional parameter, which is the prompt string
 
 1. It is bidirectional user and client both can send and receive messages. 
 2. We dont need to enter exit or any other just do (ctrl+c) to close the connection. 
+3. It is all based on an exception handling concept so if there is any human or connection error it will pop up with an exception.
+
+# Disadvantages
+
+1. It is not multithreaded so it can only establish one connection at a time.
+2. It is not GUI based.
+3. It can only support IPv4 based connections.
