@@ -10,10 +10,10 @@ To create a socket, you must use the socket.socket() function available in socke
 
 # Functions used
 
-## Create a socket object. s = socket.socket()  
+### Create a socket object. s = socket.socket()  
 s = socket.socket (socket_family, socket_type, protocol=0)
 
-# s.bind()
+## s.bind()
 Define the port on which you want to connect. port = 12345.
 This method binds address (hostname, port number pair) to socket.
 
