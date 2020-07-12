@@ -52,5 +52,7 @@ The print() function prints the specified message to the screen, or other standa
 ### input ( ) :-
 The function input() input has an optional parameter, which is the prompt string. If the input function is called, the program flow will be stopped until the user has given an input and has ended the input with the return key.
 
+# Advantages 
 
-
+1. It is bidirectional user and client both can send and receive messages. <b/> 
+2. We dont need to enter exit or any other just do ctrl+c to close the connection. 
