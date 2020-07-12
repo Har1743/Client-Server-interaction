@@ -7,7 +7,10 @@ BASIC IMPORT MODULES :-
 Import socket :-
 
 To create a socket, you must use the socket.socket() function available in socket module, which has the general syntax −
-# Create a socket object. s = socket.socket()  
+
+# Functions used
+
+## Create a socket object. s = socket.socket()  
 s = socket.socket (socket_family, socket_type, protocol=0)
 
 # s.bind()
