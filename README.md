@@ -54,5 +54,5 @@ The function input() input has an optional parameter, which is the prompt string
 
 # Advantages 
 
-1. It is bidirectional user and client both can send and receive messages. <b/> 
-2. We dont need to enter exit or any other just do ctrl+c to close the connection. 
+1. It is bidirectional user and client both can send and receive messages. 
+2. We dont need to enter exit or any other just do (ctrl+c) to close the connection. 
