@@ -43,7 +43,7 @@ def bind_socket():
     try:
         host = socket.gethostname()
         print("\n*** Binding the socket for " + str(host) + " on the port " + str(port) + " ... ***")
-        server_socket.bind(('127.0.0.1', int(port)))
+        server_socket.bind(('0.0.0.0', int(port)))
     except socket.error:
         print("Binding error in bind() ", socket.error)
         print("Retrying ...")
